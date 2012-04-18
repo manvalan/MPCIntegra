@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC2F739114C9588100095C2B /* ALPPIntegra.m in Sources */ = {isa = PBXBuildFile; fileRef = EC2F739014C9588100095C2B /* ALPPIntegra.m */; };
+		ECE6F8C413C22407002A89BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE6F8C313C22407002A89BC /* Cocoa.framework */; };
+		ECE6F8CE13C22407002A89BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECE6F8CC13C22407002A89BC /* InfoPlist.strings */; };
+		ECE6F8D113C22407002A89BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE6F8D013C22407002A89BC /* main.m */; };
+		ECE6F8D413C22407002A89BC /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = ECE6F8D213C22407002A89BC /* Credits.rtf */; };
+		ECE6F8D713C22407002A89BC /* MPCIntegra.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE6F8D613C22407002A89BC /* MPCIntegra.m */; };
+		ECE6F8DA13C22407002A89BC /* MPCIntegra.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE6F8D813C22407002A89BC /* MPCIntegra.xib */; };
+		ECE6F8DD13C22408002A89BC /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = ECE6F8DB13C22408002A89BC /* MainMenu.xib */; };
+		ECE6F8E413C22408002A89BC /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECE6F8C313C22407002A89BC /* Cocoa.framework */; };
+		ECE6F8EC13C22408002A89BC /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ECE6F8EA13C22408002A89BC /* InfoPlist.strings */; };
+		ECE6F8EF13C22408002A89BC /* MPCIntegraTests.h in Resources */ = {isa = PBXBuildFile; fileRef = ECE6F8EE13C22408002A89BC /* MPCIntegraTests.h */; };
+		ECE6F8F113C22408002A89BC /* MPCIntegraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE6F8F013C22408002A89BC /* MPCIntegraTests.m */; };
+		ECE6F8FF13C22457002A89BC /* jpleph.c in Sources */ = {isa = PBXBuildFile; fileRef = ECE6F8FE13C22457002A89BC /* jpleph.c */; };
+		ECE6F90213C224C8002A89BC /* ALJplEphem.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE6F90113C224C8002A89BC /* ALJplEphem.m */; };
+		ECE6F90813C22F05002A89BC /* Math3D.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE6F90713C22F05002A89BC /* Math3D.m */; };
+		ECE6F90A13C22F1E002A89BC /* Vec3D.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE6F90913C22F1E002A89BC /* Vec3D.m */; };
+		ECE6F91D13C2E251002A89BC /* ALMinorPlanet.m in Sources */ = {isa = PBXBuildFile; fileRef = ECE6F91C13C2E251002A89BC /* ALMinorPlanet.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ECE6F8E513C22408002A89BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECE6F8B613C22407002A89BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ECE6F8BE13C22407002A89BC;
+			remoteInfo = MPCIntegra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC29BC7613C8B594001CA395 /* APC_Const.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APC_Const.h; sourceTree = "<group>"; };
+		EC29BC7F13C8F8D4001CA395 /* sofa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sofa.h; sourceTree = "<group>"; };
+		EC29BC8013C8F8D5001CA395 /* sofam.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sofam.h; sourceTree = "<group>"; };
+		EC2F738F14C9588100095C2B /* ALPPIntegra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALPPIntegra.h; sourceTree = "<group>"; };
+		EC2F739014C9588100095C2B /* ALPPIntegra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALPPIntegra.m; sourceTree = "<group>"; };
+		ECE6F8BF13C22407002A89BC /* MPCIntegra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MPCIntegra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE6F8C313C22407002A89BC /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		ECE6F8C613C22407002A89BC /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		ECE6F8C713C22407002A89BC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		ECE6F8C813C22407002A89BC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		ECE6F8CB13C22407002A89BC /* MPCIntegra-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPCIntegra-Info.plist"; sourceTree = "<group>"; };
+		ECE6F8CD13C22407002A89BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECE6F8CF13C22407002A89BC /* MPCIntegra-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPCIntegra-Prefix.pch"; sourceTree = "<group>"; };
+		ECE6F8D013C22407002A89BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ECE6F8D313C22407002A89BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		ECE6F8D513C22407002A89BC /* MPCIntegra.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPCIntegra.h; sourceTree = "<group>"; };
+		ECE6F8D613C22407002A89BC /* MPCIntegra.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPCIntegra.m; sourceTree = "<group>"; };
+		ECE6F8D913C22407002A89BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MPCIntegra.xib; sourceTree = "<group>"; };
+		ECE6F8DC13C22408002A89BC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		ECE6F8E313C22408002A89BC /* MPCIntegraTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MPCIntegraTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECE6F8E913C22408002A89BC /* MPCIntegraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MPCIntegraTests-Info.plist"; sourceTree = "<group>"; };
+		ECE6F8EB13C22408002A89BC /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		ECE6F8ED13C22408002A89BC /* MPCIntegraTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MPCIntegraTests-Prefix.pch"; sourceTree = "<group>"; };
+		ECE6F8EE13C22408002A89BC /* MPCIntegraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPCIntegraTests.h; sourceTree = "<group>"; };
+		ECE6F8F013C22408002A89BC /* MPCIntegraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPCIntegraTests.m; sourceTree = "<group>"; };
+		ECE6F8FD13C22457002A89BC /* jpleph.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpleph.h; sourceTree = "<group>"; };
+		ECE6F8FE13C22457002A89BC /* jpleph.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = jpleph.c; sourceTree = "<group>"; };
+		ECE6F90013C224C8002A89BC /* ALJplEphem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALJplEphem.h; sourceTree = "<group>"; };
+		ECE6F90113C224C8002A89BC /* ALJplEphem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALJplEphem.m; sourceTree = "<group>"; };
+		ECE6F90313C22510002A89BC /* jpl_int.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = jpl_int.h; sourceTree = "<group>"; };
+		ECE6F90413C22510002A89BC /* stdintvc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stdintvc.h; sourceTree = "<group>"; };
+		ECE6F90513C22ECB002A89BC /* Vec3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Vec3D.h; sourceTree = "<group>"; };
+		ECE6F90613C22EF1002A89BC /* Math3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Math3D.h; sourceTree = "<group>"; };
+		ECE6F90713C22F05002A89BC /* Math3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Math3D.m; sourceTree = "<group>"; };
+		ECE6F90913C22F1E002A89BC /* Vec3D.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Vec3D.m; sourceTree = "<group>"; };
+		ECE6F90D13C234C3002A89BC /* costants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = costants.h; sourceTree = "<group>"; };
+		ECE6F91B13C2E251002A89BC /* ALMinorPlanet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ALMinorPlanet.h; sourceTree = "<group>"; };
+		ECE6F91C13C2E251002A89BC /* ALMinorPlanet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ALMinorPlanet.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ECE6F8BC13C22407002A89BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE6F8C413C22407002A89BC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE6F8DF13C22408002A89BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE6F8E413C22408002A89BC /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ECE6F8B413C22407002A89BC = {
+			isa = PBXGroup;
+			children = (
+				EC29BC7F13C8F8D4001CA395 /* sofa.h */,
+				EC29BC8013C8F8D5001CA395 /* sofam.h */,
+				ECE6F8C913C22407002A89BC /* MPCIntegra */,
+				ECE6F8E713C22408002A89BC /* MPCIntegraTests */,
+				ECE6F8C213C22407002A89BC /* Frameworks */,
+				ECE6F8C013C22407002A89BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ECE6F8C013C22407002A89BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6F8BF13C22407002A89BC /* MPCIntegra.app */,
+				ECE6F8E313C22408002A89BC /* MPCIntegraTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ECE6F8C213C22407002A89BC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6F8C313C22407002A89BC /* Cocoa.framework */,
+				ECE6F8C513C22407002A89BC /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ECE6F8C513C22407002A89BC /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6F8C613C22407002A89BC /* AppKit.framework */,
+				ECE6F8C713C22407002A89BC /* CoreData.framework */,
+				ECE6F8C813C22407002A89BC /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		ECE6F8C913C22407002A89BC /* MPCIntegra */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6F91A13C2E22F002A89BC /* ALMinorPlanet */,
+				ECE6F90C13C22F4F002A89BC /* ALJplEphem */,
+				ECE6F91913C2E1F0002A89BC /* ALIntegrat */,
+				ECE6F90B13C22F37002A89BC /* Math */,
+				ECE6F8D513C22407002A89BC /* MPCIntegra.h */,
+				ECE6F8D613C22407002A89BC /* MPCIntegra.m */,
+				ECE6F8D813C22407002A89BC /* MPCIntegra.xib */,
+				ECE6F8DB13C22408002A89BC /* MainMenu.xib */,
+				EC29BC7613C8B594001CA395 /* APC_Const.h */,
+				ECE6F8CA13C22407002A89BC /* Supporting Files */,
+			);
+			path = MPCIntegra;
+			sourceTree = "<group>";
+		};
+		ECE6F8CA13C22407002A89BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6F8CB13C22407002A89BC /* MPCIntegra-Info.plist */,
+				ECE6F8CC13C22407002A89BC /* InfoPlist.strings */,
+				ECE6F8CF13C22407002A89BC /* MPCIntegra-Prefix.pch */,
+				ECE6F8D013C22407002A89BC /* main.m */,
+				ECE6F8D213C22407002A89BC /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECE6F8E713C22408002A89BC /* MPCIntegraTests */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6F8EE13C22408002A89BC /* MPCIntegraTests.h */,
+				ECE6F8F013C22408002A89BC /* MPCIntegraTests.m */,
+				ECE6F8E813C22408002A89BC /* Supporting Files */,
+			);
+			path = MPCIntegraTests;
+			sourceTree = "<group>";
+		};
+		ECE6F8E813C22408002A89BC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6F8E913C22408002A89BC /* MPCIntegraTests-Info.plist */,
+				ECE6F8EA13C22408002A89BC /* InfoPlist.strings */,
+				ECE6F8ED13C22408002A89BC /* MPCIntegraTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		ECE6F90B13C22F37002A89BC /* Math */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6F90D13C234C3002A89BC /* costants.h */,
+				ECE6F90513C22ECB002A89BC /* Vec3D.h */,
+				ECE6F90913C22F1E002A89BC /* Vec3D.m */,
+				ECE6F90613C22EF1002A89BC /* Math3D.h */,
+				ECE6F90713C22F05002A89BC /* Math3D.m */,
+			);
+			name = Math;
+			sourceTree = "<group>";
+		};
+		ECE6F90C13C22F4F002A89BC /* ALJplEphem */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6F8FD13C22457002A89BC /* jpleph.h */,
+				ECE6F90313C22510002A89BC /* jpl_int.h */,
+				ECE6F8FE13C22457002A89BC /* jpleph.c */,
+				ECE6F90413C22510002A89BC /* stdintvc.h */,
+				ECE6F90013C224C8002A89BC /* ALJplEphem.h */,
+				ECE6F90113C224C8002A89BC /* ALJplEphem.m */,
+			);
+			name = ALJplEphem;
+			sourceTree = "<group>";
+		};
+		ECE6F91913C2E1F0002A89BC /* ALIntegrat */ = {
+			isa = PBXGroup;
+			children = (
+				EC2F738F14C9588100095C2B /* ALPPIntegra.h */,
+				EC2F739014C9588100095C2B /* ALPPIntegra.m */,
+			);
+			name = ALIntegrat;
+			sourceTree = "<group>";
+		};
+		ECE6F91A13C2E22F002A89BC /* ALMinorPlanet */ = {
+			isa = PBXGroup;
+			children = (
+				ECE6F91B13C2E251002A89BC /* ALMinorPlanet.h */,
+				ECE6F91C13C2E251002A89BC /* ALMinorPlanet.m */,
+			);
+			name = ALMinorPlanet;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ECE6F8BE13C22407002A89BC /* MPCIntegra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE6F8F413C22408002A89BC /* Build configuration list for PBXNativeTarget "MPCIntegra" */;
+			buildPhases = (
+				ECE6F8BB13C22407002A89BC /* Sources */,
+				ECE6F8BC13C22407002A89BC /* Frameworks */,
+				ECE6F8BD13C22407002A89BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MPCIntegra;
+			productName = MPCIntegra;
+			productReference = ECE6F8BF13C22407002A89BC /* MPCIntegra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ECE6F8E213C22408002A89BC /* MPCIntegraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ECE6F8F713C22408002A89BC /* Build configuration list for PBXNativeTarget "MPCIntegraTests" */;
+			buildPhases = (
+				ECE6F8DE13C22408002A89BC /* Sources */,
+				ECE6F8DF13C22408002A89BC /* Frameworks */,
+				ECE6F8E013C22408002A89BC /* Resources */,
+				ECE6F8E113C22408002A89BC /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ECE6F8E613C22408002A89BC /* PBXTargetDependency */,
+			);
+			name = MPCIntegraTests;
+			productName = MPCIntegraTests;
+			productReference = ECE6F8E313C22408002A89BC /* MPCIntegraTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ECE6F8B613C22407002A89BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = ECE6F8B913C22407002A89BC /* Build configuration list for PBXProject "MPCIntegra" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ECE6F8B413C22407002A89BC;
+			productRefGroup = ECE6F8C013C22407002A89BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ECE6F8BE13C22407002A89BC /* MPCIntegra */,
+				ECE6F8E213C22408002A89BC /* MPCIntegraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECE6F8BD13C22407002A89BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE6F8CE13C22407002A89BC /* InfoPlist.strings in Resources */,
+				ECE6F8D413C22407002A89BC /* Credits.rtf in Resources */,
+				ECE6F8DA13C22407002A89BC /* MPCIntegra.xib in Resources */,
+				ECE6F8DD13C22408002A89BC /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE6F8E013C22408002A89BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE6F8EC13C22408002A89BC /* InfoPlist.strings in Resources */,
+				ECE6F8EF13C22408002A89BC /* MPCIntegraTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ECE6F8E113C22408002A89BC /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ECE6F8BB13C22407002A89BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE6F8D113C22407002A89BC /* main.m in Sources */,
+				ECE6F8D713C22407002A89BC /* MPCIntegra.m in Sources */,
+				ECE6F8FF13C22457002A89BC /* jpleph.c in Sources */,
+				ECE6F90213C224C8002A89BC /* ALJplEphem.m in Sources */,
+				ECE6F90813C22F05002A89BC /* Math3D.m in Sources */,
+				ECE6F90A13C22F1E002A89BC /* Vec3D.m in Sources */,
+				ECE6F91D13C2E251002A89BC /* ALMinorPlanet.m in Sources */,
+				EC2F739114C9588100095C2B /* ALPPIntegra.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ECE6F8DE13C22408002A89BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ECE6F8F113C22408002A89BC /* MPCIntegraTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ECE6F8E613C22408002A89BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ECE6F8BE13C22407002A89BC /* MPCIntegra */;
+			targetProxy = ECE6F8E513C22408002A89BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ECE6F8CC13C22407002A89BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE6F8CD13C22407002A89BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		ECE6F8D213C22407002A89BC /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE6F8D313C22407002A89BC /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		ECE6F8D813C22407002A89BC /* MPCIntegra.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE6F8D913C22407002A89BC /* en */,
+			);
+			name = MPCIntegra.xib;
+			sourceTree = "<group>";
+		};
+		ECE6F8DB13C22408002A89BC /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE6F8DC13C22408002A89BC /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		ECE6F8EA13C22408002A89BC /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ECE6F8EB13C22408002A89BC /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ECE6F8F213C22408002A89BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
+				SDKROOT = macosx;
+				STRIPFLAGS = "-mfpmath=sse -msse2";
+			};
+			name = Debug;
+		};
+		ECE6F8F313C22408002A89BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CODE_SIGN_ENTITLEMENTS = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = "";
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = "";
+				OTHER_CPLUSPLUSFLAGS = "";
+				SDKROOT = macosx;
+				STRIPFLAGS = "-mfpmath=sse -msse2";
+			};
+			name = Release;
+		};
+		ECE6F8F513C22408002A89BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPCIntegra/MPCIntegra-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/usr/local/include/**";
+				INFOPLIST_FILE = "MPCIntegra/MPCIntegra-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				"LIBRARY_SEARCH_PATHS[arch=*]" = /usr/local/lib;
+				OTHER_LDFLAGS = (
+					"-L",
+					/Users/iMike/lib/,
+					"-lgal",
+					"-lsofa_c",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIPFLAGS = "-mpc80";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		ECE6F8F613C22408002A89BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPCIntegra/MPCIntegra-Prefix.pch";
+				HEADER_SEARCH_PATHS = "/usr/local/include/**";
+				INFOPLIST_FILE = "MPCIntegra/MPCIntegra-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+					/usr/local/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-L",
+					/Users/iMike/lib/,
+					"-lgal",
+					"-lsofa_c",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIPFLAGS = "-mpc80";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		ECE6F8F813C22408002A89BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MPCIntegra.app/Contents/MacOS/MPCIntegra";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPCIntegraTests/MPCIntegraTests-Prefix.pch";
+				INFOPLIST_FILE = "MPCIntegraTests/MPCIntegraTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		ECE6F8F913C22408002A89BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/MPCIntegra.app/Contents/MacOS/MPCIntegra";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MPCIntegraTests/MPCIntegraTests-Prefix.pch";
+				INFOPLIST_FILE = "MPCIntegraTests/MPCIntegraTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ECE6F8B913C22407002A89BC /* Build configuration list for PBXProject "MPCIntegra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE6F8F213C22408002A89BC /* Debug */,
+				ECE6F8F313C22408002A89BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE6F8F413C22408002A89BC /* Build configuration list for PBXNativeTarget "MPCIntegra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE6F8F513C22408002A89BC /* Debug */,
+				ECE6F8F613C22408002A89BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ECE6F8F713C22408002A89BC /* Build configuration list for PBXNativeTarget "MPCIntegraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECE6F8F813C22408002A89BC /* Debug */,
+				ECE6F8F913C22408002A89BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ECE6F8B613C22407002A89BC /* Project object */;
+}
